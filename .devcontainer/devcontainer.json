@@ -2,6 +2,9 @@
   "name": "Ccode Devcontainer Template",
   "image": "node:24-bookworm",
   "runArgs": ["--env-file", ".devcontainer/.env"],
+  "remoteEnv": {
+    "PATH": "/home/node/.bun/bin:${containerEnv:PATH}" // bunはbashにしかパスが通ってないのでパスを通す
+  },
   "remoteUser": "node", // non-root-user
   "workspaceFolder": "/home/node/app",
   "initializeCommand": ".devcontainer/initializeCommand.sh", // 起動時にホスト環境で実行するコマンド

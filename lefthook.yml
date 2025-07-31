@@ -2,6 +2,8 @@ pre-commit:
   parallel: true
   jobs:
     - name: lint
-      run: echo $SHELL
+      run: bun run lint
+    - name: test
+      run: bun test
     # - name: build
     #   run: bun run build
