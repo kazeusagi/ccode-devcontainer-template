@@ -4,10 +4,12 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
+    "lint": "biome check",
+    "format": "biome format",
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.1.3",
     "turbo": "^2.5.5",
     "typescript": "5.8.3"
   },
