@@ -1,15 +1,28 @@
 {
-  "name": "Bun Devcontainer Template",
-  "dockerComposeFile": "./compose.yml",
-  "service": "app",
-  "workspaceFolder": "/home/user/app",
+  "name": "Ccode Devcontainer Template",
+  "image": "node:24-bookworm",
+  "runArgs": ["--env-file", ".devcontainer/.env"],
+  "remoteUser": "node",
+  "workspaceFolder": "/home/node/app",
+  // "initializeCommand": ".devcontainer/initializeCommand.sh", // 起動時にホスト環境で実行するコマンド
+  "onCreateCommand": ".devcontainer/onCreateCommand.sh",
+  "postCreateCommand": ".devcontainer/postCreateCommand.sh", // 起動時コマンド
+  "mounts": [
+    "source=${localWorkspaceFolder},target=${containerWorkspaceFolder},type=bind", // ワークスペース
+    // "source=${localWorkspaceFolder}/.ccode/.claude,target=/home/node/.claude,type=bind", // claude
+    // "source=${localWorkspaceFolder}/.ccode/.claude.json,target=/home/node/.claude.json,type=bind" // claude settings json
+  ],
+  "features": {
+    // "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-azuretools.vscode-docker",
-        "GitHub.copilot",
+        "biomejs.biome",
         "oderwat.indent-rainbow",
-        "biomejs.biome"
+        "wix.vscode-import-cost",
+        "oven.bun-vscode",
+        "Anthropic.claude-code"
       ]
     }
   }
