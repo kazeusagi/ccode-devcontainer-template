@@ -2,6 +2,6 @@ pre-commit:
   parallel: true
   jobs:
     - name: lint
-      run: bun run lint
+      run: npm run lint
     # - name: build
     #   run: bun run build
