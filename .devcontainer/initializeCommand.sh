@@ -1,7 +1,7 @@
-# # .envの作成
-# if [ ! -f .devcontainer/.env ]; then
-#     cp .devcontainer/.env.example .devcontainer/.env
-# fi
+# .envの作成
+if [ ! -f .devcontainer/.env ]; then
+    cp .devcontainer/.env.example .devcontainer/.env
+fi
 
 # # .claudeディレクトリの作成
 # if [ ! -d .ccode/.claude ]; then

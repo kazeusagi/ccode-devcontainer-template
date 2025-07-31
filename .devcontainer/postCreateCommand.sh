@@ -2,5 +2,5 @@
 export PATH=${HOME}/.bun/bin:${PATH}
 bun i
 
-# Claudeのインストール
+# ClaudeCodeのインストール
 bun i -g @anthropic-ai/claude-code
