@@ -1,5 +1,6 @@
-# 依存関係のインストール
 export PATH=${HOME}/.bun/bin:${PATH}
+
+# 依存関係のインストール
 bun i
 
 # ClaudeCodeのインストール

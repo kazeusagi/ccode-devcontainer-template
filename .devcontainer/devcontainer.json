@@ -18,9 +18,9 @@
       "extensions": [
         "biomejs.biome",
         "oderwat.indent-rainbow",
-        "wix.vscode-import-cost",
         "oven.bun-vscode",
-        "Anthropic.claude-code"
+        "Anthropic.claude-code",
+        "EthanSK.restore-terminals"
       ]
     }
   }
