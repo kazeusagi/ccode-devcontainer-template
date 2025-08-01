@@ -1,6 +1,6 @@
 # Claude Code Devcontainer Template
 
-![skill icons](https://skillicons.dev/icons?i=docker,bun,nodejs,ts,js)
+![skill icons](https://skillicons.dev/icons?i=docker,ts,bun,nodejs,nextjs)
 
 Claude Codeを用いたAI駆動開発に最適化したモノレポテンプレートです。
 追加で [Biome](https://biomejs.dev/) と [LeftHook](https://lefthook.dev/) を含みます。
@@ -31,7 +31,10 @@ Claude Codeを用いたAI駆動開発に最適化したモノレポテンプレ�
 ## 🚨 その他、留意すべきこと
 
 - Claude Codeで何度も認証を求められないように認証ファイル等を `.ignore-me` ディレクトリ配下にマウントしています。  
-このディレクトリは `.gitignore` に入れていますが**絶対にGit管理に含めないでください。**
+このディレクトリは `.gitignore` で無視するように設定していますが、**絶対にGit管理に含めないでください。**
 
-- `.claude` ディレクトリはプロジェクト毎の設定です。  
+- `.claude` ディレクトリはプロジェクト毎のClaude Codeの設定です。  
 これはGit管理に含めても大丈夫です。
+
+- パッケージマネージャは `npm`, `bun`, `yarn` が入っています。  
+私は `bun` 推しですが、好きなものを使ってください。
