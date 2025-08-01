@@ -4,11 +4,11 @@ if [ ! -f .devcontainer/.env ]; then
 fi
 
 # .claudeディレクトリの作成
-if [ ! -d .ccode/.claude ]; then
-    mkdir -p .ccode/.claude
+if [ ! -d .ignore-me/.claude ]; then
+    mkdir -p .ignore-me/.claude
 fi
 
 # .claude.jsonの作成
-if [ ! -f .ccode/.claude.json ]; then
-    echo '{}' > .ccode/.claude.json
+if [ ! -f .ignore-me/.claude.json ]; then
+    echo '{}' > .ignore-me/.claude.json
 fi
