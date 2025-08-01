@@ -26,7 +26,8 @@ Claude Codeを用いたAI駆動開発に最適化したモノレポテンプレ�
 
 [LeftHook](https://lefthook.dev/) でpre-commitのフックを定義済みです。  
 現在はコミット前に `bun run lint` と `bun test` が実行されるように設定しています。  
-詳しくは `lefthook.yml` を参照ください。
+詳しくは `lefthook.yml` を参照ください。  
+コミットメッセージのリントがしたい方は [こちら](https://lefthook.dev/examples/commitlint.html) をどうぞ
 
 ## 🚨 その他、留意すべきこと
 
