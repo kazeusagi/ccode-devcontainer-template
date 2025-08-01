@@ -15,7 +15,9 @@
     "source=${localWorkspaceFolder}/.ccode/.claude,target=/home/node/.claude,type=bind", // claude settings dir
     "source=${localWorkspaceFolder}/.ccode/.claude.json,target=/home/node/.claude.json,type=bind" // claude settings json
   ],
-  "features": {},
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {} // GitHub CLI
+  },
   "customizations": {
     "vscode": {
       "extensions": [
