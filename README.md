@@ -12,8 +12,8 @@ Claude Codeを用いたAI駆動開発に最適化したモノレポテンプレ�
 - Dev Container の起動  
 `shift + ctrl + p` で `Dev Containers: Rebuild and Reopen in Container` を実行
 
-- 後は勝手に開発環境とClaude Codeが立ち上がります。
--> 初回のみ認証が求められます。
+- 後は勝手に開発環境とClaude Codeが立ち上がります。  
+初回のみ認証が求められます。
 
 ## ✨ 追加の設定
 
