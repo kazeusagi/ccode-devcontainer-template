@@ -2,7 +2,7 @@
 
 ![skill icons](https://skillicons.dev/icons?i=docker,ts,bun,nodejs,nextjs)
 
-Claude Codeを用いたAI駆動開発に最適化したモノレポテンプレートです。
+Claude Codeを用いたAI駆動開発に最適化したモノレポテンプレートです。  
 追加で [Biome](https://biomejs.dev/) と [LeftHook](https://lefthook.dev/) を含みます。
 
 ## 🚀 起動方法
