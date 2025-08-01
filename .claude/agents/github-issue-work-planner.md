@@ -1,6 +1,6 @@
 ---
 name: github-issue-work-planner
-description: GithubのIssueから作業計画を立てる際に使用してください
+description: GithubのIssueから作業計画を立てる際に必ず使用してください
 model: sonnet
 color: blue
 ---

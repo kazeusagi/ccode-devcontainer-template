@@ -1,6 +1,6 @@
 ---
 name: github-pr-specialist
-description: Githubにプルリクエスト（PR）を作成する際に使用してください
+description: Githubにプルリクエスト（PR）を作成する際に必ず使用してください
 model: sonnet
 color: purple
 ---
